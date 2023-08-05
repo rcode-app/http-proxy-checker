@@ -1,4 +1,3 @@
-const TIMEOUT_DURATION = 3000;
 const { MAX_DURATION, THREADS, TARGET_URL } = require("./config");
 const fs = require("fs");
 const request = require("request").defaults({ timeout: MAX_DURATION });
